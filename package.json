@@ -1,0 +1,19 @@
+{
+  "name": "opinionated",
+  "version": "0.0.1",
+  "description": "an opinionated web development platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblarsen/opinionated.git"
+  },
+  "author": "Rob Larsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roblarsen/opinionated/issues"
+  },
+  "homepage": "https://github.com/roblarsen/opinionated#readme"
+}
