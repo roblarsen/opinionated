@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-workflow-demo:build:production"
+              "buildTarget": "angular-workflow-demo:build:production"
             },
             "development": {
-              "browserTarget": "angular-workflow-demo:build:development"
+              "buildTarget": "angular-workflow-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-workflow-demo:build"
+            "buildTarget": "angular-workflow-demo:build"
           }
         },
         "test": {
